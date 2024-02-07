@@ -1,0 +1,58 @@
+.traffic-light {
+    width: 100px;
+    background: grey;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  
+  .light {
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border: 2px solid #999;
+    border-radius: 50%;
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .red {
+    background-color: red;
+    background-image: linear-gradient(to bottom, red 50%, salmon 50%);
+  }
+  
+  .yellow {
+    background-color: yellow;
+    background-image: linear-gradient(to bottom right, yellow 75%, darkkhaki 25%);
+  }
+  
+  .yellow::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    background-color: darkkhaki;
+  }
+  
+  .green {
+    background-color: green;
+    background-image: linear-gradient(to bottom left, green 75%, darkseagreen 25%);
+  }
+  
+  .green::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: darkseagreen;
+  }
