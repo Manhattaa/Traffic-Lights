@@ -1,4 +1,4 @@
-#### A little fun exercise where i've created a Traffic Light in HTML and CSS using the instructions below.
+#### A little fun exercise where i created a simulation of a Traffic Light in HTML and CSS using the instructions below.
 
 
 # Instruktioner för Övning: CSS Trafikljuset
