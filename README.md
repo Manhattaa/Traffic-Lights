@@ -23,3 +23,6 @@ Bra att kunna:
 ![This is an image](https://github.com/chasacademy-sandra-larsson/css-basic--traffic-light/blob/main/trafficlight-bonus.png)
 
 **Notera**: Det handlar om att bygga ett trafikljus med ovanstående dimensioner. Det behöver inte vara exakt bredd/höjd eller färgval.
+
+
+Source of the Instructions: [Sandra Larsson - css-basic--traffic-light](https://github.com/chasacademy-sandra-larsson/css-basic--traffic-light)
